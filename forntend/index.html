@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Group Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Study Group Tracker</h1>
+        <input type="text" id="topic" placeholder="Enter study topic">
+        <button onclick="createSession()">Create Session</button>
+        <h2>Available Sessions</h2>
+        <ul id="sessionList"></ul>
+        <h3>Your Token Balance: <span id="balance">0</span></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
